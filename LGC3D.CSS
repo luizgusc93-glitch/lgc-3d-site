@@ -10,6 +10,11 @@
 /*
 ****** HEADER ******
 */
+
+html{
+    scroll-behavior: smooth;
+}
+
 .img-post{
     width: 120px;
     height: auto;
@@ -238,6 +243,10 @@ body{
     transform: scale(1.03);
 }
 
+#contato{
+    scroll-margin-top: 100px;
+}
+
 .contato-container{
     display: flex;
     align-items: flex-start;
@@ -301,4 +310,96 @@ body{
 .whatsapp-btn:hover{
     background-color: #1ebe5d;
     transform: scale(1.1);
+}
+
+h1{
+    color: white;
+}
+
+.produtos-container{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin: 50px;
+}
+
+.produto-card{
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.produto-card:hover{
+  transform: scale(1.05);
+}
+
+.produto-card img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.btn-comprar{
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: #25d366;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+@media (max-width: 768px){
+
+}
+
+@media (max-width: 768px){
+
+    nav{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+}
+
+@media (max-width: 768px){
+
+    .produtos-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 768px){
+
+    .contato-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media(max-width: 768px){
+
+    h1{
+        font-size: 32px;
+    }
+
+}
+
+img{
+    max-width: 100%;
+}
+
+@media (max-width: 768px){
+
+    section{
+        padding: 20px;
+    }
+    
 }
