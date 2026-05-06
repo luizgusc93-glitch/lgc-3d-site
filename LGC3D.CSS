@@ -323,14 +323,15 @@ h1{
   justify-content: center;
   gap: 30px;
   flex-wrap: wrap;
-  margin: 50px;
+  margin: 20px;
 }
 
 .produto-card{
   background: white;
   padding: 20px;
   border-radius: 15px;
-  width: 250px;
+  width: 90px;
+  max-width: 250px;
   text-align: center;
   box-shadow: 0 4px 15px rgba(0,0,0,0.2);
   transition: 0.3s;
@@ -342,6 +343,8 @@ h1{
 
 .produto-card img{
   width: 100%;
+  height: auto;
+  display: block;
   border-radius: 10px;
 }
 
