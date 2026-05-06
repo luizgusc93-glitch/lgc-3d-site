@@ -409,6 +409,10 @@ img{
 
 }
 
+.produto-card{
+    min-width: 250px;
+}
+
 html, body{
     overflow-x: hidden;
 }
