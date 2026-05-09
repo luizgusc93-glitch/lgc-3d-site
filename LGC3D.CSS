@@ -115,16 +115,27 @@ body{
     color: #ffffff;
 }
 
+.titulo-decorativo{
+    margin-top: 40px;
+}
+
+.titulo-materiais{
+    margin-top: 40px;
+}
+
 .galeria{
     display: flex;
     justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
     margin-top: 20px;
 }
 
 .galeria img{
-    width: 250px;
-    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
     transition: 0.3s;
     box-shadow: 0px 4px 15px #6c6e73;
 }
