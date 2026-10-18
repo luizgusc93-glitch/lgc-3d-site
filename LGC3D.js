@@ -36,3 +36,23 @@ form.addEventListener("submit", function(event){
         console.log(error);
     });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+
+const modal = document.getElementById("modal");
+const modalImg = document.getElementById("imagem-modal");
+const imagens = document.querySelectorAll(".galeria img");
+const fechar = document.getElementById("fechar");
+
+imagens.forEach(img => {
+    img.addEventListener("click", () => {
+        modal.style.display = "block";
+        modalImg.src = img.src;
+    });
+});
+
+fechar.onclick = () => {
+    modal.style.display = "none";
+};
+
+});
